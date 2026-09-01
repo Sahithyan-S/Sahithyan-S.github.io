@@ -9,80 +9,97 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧠%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-<div class="container">
 
-<nav class="nav">
-  <a href="index.html" class="nav-brand">Sahithyan Sivakumaran</a>
-  <div class="nav-links">
-    <a href="index.html" class="active">About</a>
-    <a href="research.html">Research</a>
-    <a href="publications.html">Publications</a>
-    <a href="writing.html">Writing</a>
-    <a href="cv.html">CV</a>
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
-  </div>
-</nav>
+<div class="nav-wrap">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">Sahithyan Sivakumaran</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">About</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="writing.html">Writing</a>
+      <a href="cv.html">CV</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">◐</button>
+    </div>
+  </nav>
+</div>
 
-<header class="hero">
-  <img src="assets/profile.jpg" alt="Sahithyan Sivakumaran" class="hero-photo">
-  <div class="hero-text">
-    <h1>Sahithyan Sivakumaran</h1>
-    <div class="hero-subtitle">PhD Student · Hartley Lab · Cognition &amp; Perception · NYU</div>
-    <div class="hero-links">
-      <a href="mailto:sahithyan.s@nyu.edu">Email</a>
-      <span class="sep">·</span>
-      <a href="https://scholar.google.com/citations?user=zjxD9jkAAAAJ" target="_blank" rel="noopener">Scholar</a>
-      <span class="sep">·</span>
-      <a href="https://github.com/Sahithyan-S" target="_blank" rel="noopener">GitHub</a>
-      <span class="sep">·</span>
-      <a href="https://bsky.app/profile/sahithyan.bsky.social" target="_blank" rel="noopener">Bluesky</a>
-      <span class="sep">·</span>
-      <a href="files/Sahithyan_CV_May_2026.pdf" target="_blank" rel="noopener">CV</a>
+<section class="curtain">
+  <div class="brain-hero" id="hero">
+    <canvas id="brainmesh" aria-hidden="true"></canvas>
+    <div class="hero-copy">
+      <div class="hero-copy-inner">
+        <img src="assets/profile.jpg" alt="Sahithyan Sivakumaran" class="hero-copy-photo">
+        <h1>Sahithyan Sivakumaran</h1>
+        <p class="hero-role">PhD Student · Hartley Lab · Cognition &amp; Perception · NYU</p>
+        <div class="hero-copy-links">
+          <a href="mailto:sahithyan.s@nyu.edu">Email</a>
+          <span class="sep">·</span>
+          <a href="https://scholar.google.com/citations?user=zjxD9jkAAAAJ" target="_blank" rel="noopener">Scholar</a>
+          <span class="sep">·</span>
+          <a href="https://github.com/Sahithyan-S" target="_blank" rel="noopener">GitHub</a>
+          <span class="sep">·</span>
+          <a href="https://bsky.app/profile/sahithyan.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+          <span class="sep">·</span>
+          <a href="files/Sahithyan_CV_May_2026.pdf" target="_blank" rel="noopener">CV</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-footnote">
+      <div class="hero-hint"><span class="pulse"></span> Move your cursor over the brain</div>
+      <p class="hero-credit">Brain interaction adapted from <a href="https://torwager.github.io/elements-of-fmri-tutorials/" target="_blank" rel="noopener">Tor Wager</a> · built with Claude</p>
+    </div>
+    <div class="scroll-cue">
+      <a href="#about">About <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
     </div>
   </div>
-</header>
 
-<p class="intro">
-I am a third-year PhD student in the <a href="https://as.nyu.edu/psychology.html" target="_blank" rel="noopener">Department of Psychology</a> at <strong>New York University</strong>, working in <a href="https://www.hartleylab.org/" target="_blank" rel="noopener">Hartley Lab</a> under the supervision of <strong>Prof. Catherine Hartley</strong>.
-</p>
+  <div class="curtain-body">
+    <div class="container" id="about">
 
-<p>
-My research interests lie at the intersection of <em>emotion</em>, <em>memory</em>, and <em>decision-making</em> across development. I use behavioral experiments, neuroimaging, and computational approaches to understand these processes.
-</p>
+      <p class="intro">
+      I am a third-year PhD student in the <a href="https://as.nyu.edu/psychology.html" target="_blank" rel="noopener">Department of Psychology</a> at <strong>New York University</strong>, working in <a href="https://www.hartleylab.org/" target="_blank" rel="noopener">Hartley Lab</a> under the supervision of <strong>Prof. Catherine Hartley</strong>.
+      </p>
 
-<p>
-Before joining NYU, I spent four years as a Project Associate at the <strong>Centre for Neuroscience, Indian Institute of Science (IISc), Bangalore</strong> — three years with Dr. Srikanth Padmala in the Emotion and Cognition Lab, and a year with Dr. Sachin Deshmukh in the Space Lab. I hold an M.Sc in Cognitive Sciences from the <a href="https://cbcs.ac.in/" target="_blank" rel="noopener">Centre of Behavioural and Cognitive Sciences (CBCS)</a>, University of Allahabad, and a B.Tech in Computer Science from SRM Institute, including a semester abroad at Umeå University, Sweden.
-</p>
+      <p>
+      My research interests lie at the intersection of <em>emotion</em>, <em>memory</em>, and <em>decision-making</em> across development. I use behavioral experiments, neuroimaging, and computational approaches to understand these processes.
+      </p>
 
-<h2>News</h2>
-<ul class="news-list">
-  <li>
-    <span class="news-date">Nov 2025</span>
-    <span>Presented a poster at the <strong>Neuroscience 2025 (SfN)</strong>, San Diego, CA.</span>
-  </li>
-  <li>
-    <span class="news-date">Oct 2025</span>
-    <span>Presented a poster at the <strong>Society for Neuroeconomics 2025 (SNE)</strong>, Boston, MA.</span>
-  </li>
-  <li>
-    <span class="news-date">Aug 2025</span>
-    <span>New paper out in <em>Cognition and Emotion</em>. <a href="https://doi.org/10.1080/02699931.2025.2542920" target="_blank" rel="noopener">Read it here</a>.</span>
-  </li>
-  <li>
-    <span class="news-date">Aug 2024</span>
-    <span>Started PhD in Cognition &amp; Perception at NYU, joining <a href="https://www.hartleylab.org/" target="_blank" rel="noopener">Hartley Lab</a>.</span>
-  </li>
-  <li>
-    <span class="news-date">Jan 2024</span>
-    <span>New paper out in <em>Motivation Science</em>. <a href="https://psycnet.apa.org/doi/10.1037/mot0000330" target="_blank" rel="noopener">Read it here</a>.</span>
-  </li>
-</ul>
+      <p>
+      Before joining NYU, I spent four years as a Project Associate at the <strong>Centre for Neuroscience, Indian Institute of Science (IISc), Bangalore</strong> — three years with Dr. Srikanth Padmala in the Emotion and Cognition Lab, and a year with Dr. Sachin Deshmukh in the Space Lab. I hold an M.Sc in Cognitive Sciences from the <a href="https://cbcs.ac.in/" target="_blank" rel="noopener">Centre of Behavioural and Cognitive Sciences (CBCS)</a>, University of Allahabad, and a B.Tech in Computer Science from SRM Institute, including a semester abroad at Umeå University, Sweden.
+      </p>
 
-<footer class="footer">
-  © 2025 Sahithyan Sivakumaran · Last updated April 2026
-</footer>
+      <h2>News</h2>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">Nov 2025</span>
+          <span>Presented a poster at the <strong>Neuroscience 2025 (SfN)</strong>, San Diego, CA.</span>
+        </li>
+        <li>
+          <span class="news-date">Oct 2025</span>
+          <span>Presented a poster at the <strong>Society for Neuroeconomics 2025 (SNE)</strong>, Boston, MA.</span>
+        </li>
+        <li>
+          <span class="news-date">Aug 2025</span>
+          <span>New paper out in <em>Cognition and Emotion</em>. <a href="https://doi.org/10.1080/02699931.2025.2542920" target="_blank" rel="noopener">Read it here</a>.</span>
+        </li>
+        <li>
+          <span class="news-date">Aug 2024</span>
+          <span>Started PhD in Cognition &amp; Perception at NYU, joining <a href="https://www.hartleylab.org/" target="_blank" rel="noopener">Hartley Lab</a>.</span>
+        </li>
+        <li>
+          <span class="news-date">Jan 2024</span>
+          <span>New paper out in <em>Motivation Science</em>. <a href="https://psycnet.apa.org/doi/10.1037/mot0000330" target="_blank" rel="noopener">Read it here</a>.</span>
+        </li>
+      </ul>
 
-</div>
+      <footer class="footer">
+        © 2025 Sahithyan Sivakumaran · Last updated April 2026
+      </footer>
+
+    </div>
+  </div>
+</section>
 
 <script>
 (function() {
@@ -101,6 +118,7 @@ Before joining NYU, I spent four years as a Project Associate at the <strong>Cen
   });
 })();
 </script>
+<script src="assets/js/brainmesh.js"></script>
 
 </body>
 </html>
