@@ -611,7 +611,7 @@ li {
 .nav-wrap {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 0 28px;
+  padding: 32px 28px 0;
 }
 
 .curtain {
