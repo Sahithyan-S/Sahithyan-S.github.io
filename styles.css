@@ -621,8 +621,8 @@ li {
 .brain-hero {
   position: sticky;
   top: 0;
-  height: 100vh;
-  height: 100svh;
+  height: calc(100vh - 109px);   /* rounded up from 108.67 */
+  height: calc(100svh - 109px);
   overflow: hidden;
   z-index: 0;
   background: linear-gradient(160deg, var(--bg) 0%, var(--bg-elev) 60%, var(--bg) 100%);
