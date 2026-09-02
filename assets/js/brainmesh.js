@@ -145,7 +145,7 @@
     const scale = Math.min(availW, availH * 1.28);
     const bw = scale, bh = scale / 1.28;
     const ox = W > 900 ? W * 0.46 + (W * 0.50 - bw) / 2 : (W - bw) / 2;
-    const oy = (H - bh) / 2 - H * 0.02 + margin * 0;
+    const oy = W > 900 ? (H - bh) / 2 - H * 0.02 + margin * 0 : H * 0.12;
 
     const poly = OUTLINE.map(([x, y]) => [ox + x * bw, oy + y * bh]);
 
